@@ -4,7 +4,7 @@ namespace ConsoleApp4
     internal class Program
     {
         //4 Для Ани
-        enum Operation : ushort
+        enum Operation
         {
             Add,
             Subtract,
@@ -81,7 +81,7 @@ namespace ConsoleApp4
             }
             
             //Выводим результат операции
-            Console.WriteLine("Результат операции:" + result.result);
+            Console.WriteLine("Результат операции: " + result.result);
 
             Console.ReadKey();
         }
