@@ -9,7 +9,7 @@ namespace ConsoleApp4
     class Program
     {
         //3 Для Ани
-        enum Operation : ushort
+        enum Operation
         {
             Add,
             Subtract,
