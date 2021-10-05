@@ -63,7 +63,7 @@ namespace ConsoleApp4
             }
             
             //Выводим результат операции
-            Console.WriteLine("Результат операции:" + result.result);
+            Console.WriteLine("Результат операции: " + result.result);
 
             Console.ReadKey();
         }
